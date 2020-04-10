@@ -8,6 +8,10 @@ setInterval(function() {
     message.channel.send(";sell");
 }, 10000);
 
+setInterval(function() {
+    message.channel.send(";fish");
+    message.channel.send(";hunt");
+}, 300000);    
 
 }
 module.exports.help = {
