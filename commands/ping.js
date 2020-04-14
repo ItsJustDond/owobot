@@ -4,6 +4,7 @@ module.exports.run = async (client, message, args) => {
 
 setInterval(function() {
     message.channel.send(";sell");
+    message.channel.send("owo");
 }, 10000);
 
 setInterval(function() {
